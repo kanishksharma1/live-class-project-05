@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nanum+Gothic:wght@700&family=Oswald:wght@400;700&family=Red+Hat+Mono&family=Sacramento&display=swap');
+
+body {
+  background-image: url(./assets/bg.png);
+  font-family: 'Montserrat', sans-serif;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+  list-style-type: none;
+  position: absolute;
+  left: 28%;
+}
+
+.list-item {
+    margin-left: 20%;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #0d0d0d;
+  color: #cad5e2;
+}
+.line {
+  height: 6%;
+  margin-top: 18px;
+  width: 2px;
+  background-color: #cad5e2;
+  position: absolute;
+  left: 17%;
+}
+
+.logo {
+  height: 45%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.hero-heading{
+ position: relative;
+ left: 25%;
+ font-size: 65px;
+
+ width: 750px;
+ color: #cad5e2;
+ margin-top: 10%;
+ margin-bottom: 0px;
+ 
+}
+
+.hero-description{
+    text-align: center;
+    font-size: 25px; 
+    color: #cad5e2;
+    margin-top: 0;
+    position: absolute;
+    right: 31%;    
+}
+
+span{
+    position: relative;
+    left: 30px;
+}
+
+.button-small{
+    -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  background: #8D3DAF;
+  padding: 11px 21px 11px 21px;
+  text-decoration: none;
+  margin-top: 15px;
+  position: absolute;
+  right: 130px;
+}
+
+.button-small:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.button-large{
+
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    background: #8D3DAF;
+    padding: 12px 22px 12px 22px;
+    text-decoration: none;
+    position: absolute;
+    left: 40%;
+    bottom:30%;
+}
+
+.button-large:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+
+}
